@@ -1,0 +1,52 @@
+.container {
+  background: gray;
+  width: 50%;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.income {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+.numInput {
+  width: 50px;
+}
+
+.green-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid white;
+  background: lightgreen;
+  font-size: 18px;
+}
+
+.red-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid white;
+  background: rgb(255, 151, 151);
+  font-size: 18px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
